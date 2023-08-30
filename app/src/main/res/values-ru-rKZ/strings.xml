@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_page_nav_str">Главная</string>
+    <string name="search_page_nav_str">Искать</string>
+    <string name="profile_page_nav_str">Профиль</string>
+    <string name="settings_page_nav_str">Настройки</string>
+    <string name="add_task_activity_title_str">Добавить задачу</string>
+    <string name="no_task_added_str">Вы еще не добавляли задачи</string>
+    <string name="task_name_str">Название задачи</string>
+    <string name="task_description_str">Описание задачи</string>
+    <string name="add_task_button_str">Добавить</string>
+    <string name="set_deadline_str">Добавить дедлайн</string>
+    <string name="add_task_details">Заполните данные</string>
+    <string name="choose_future_date">Пожалуйста выберите будущее время</string>
+
+</resources>

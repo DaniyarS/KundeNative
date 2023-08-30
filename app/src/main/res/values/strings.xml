@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Kunde</string>
+    <string name="home_page_nav_str">Main</string>
+    <string name="search_page_nav_str">Search</string>
+    <string name="profile_page_nav_str">Profile</string>
+    <string name="settings_page_nav_str">Settings</string>
+    <string name="add_task_activity_title_str">Add task</string>
+    <string name="no_task_added_str">You haven\'t added tasks yet</string>
+    <string name="task_name_str">Task name</string>
+    <string name="task_description_str">Task description</string>
+    <string name="add_task_button_str">Add</string>
+    <string name="set_deadline_str">Set deadline</string>
+    <string name="add_task_details">Add task details</string>
+    <string name="choose_future_date">Please choose future date</string>
+
+</resources>

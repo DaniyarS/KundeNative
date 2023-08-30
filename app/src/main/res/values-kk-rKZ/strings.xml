@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_page_nav_str">Басты бет</string>
+    <string name="search_page_nav_str">Іздеу</string>
+    <string name="profile_page_nav_str">Профиль</string>
+    <string name="settings_page_nav_str">Параметрлер</string>
+    <string name="add_task_activity_title_str">Тапсырма еңгізу</string>
+    <string name="no_task_added_str">Сіз әлі тапсырмаларды еңгізбегенсіз</string>
+    <string name="task_name_str">Тапсырма аты</string>
+    <string name="task_description_str">Тапсырма сипаттамасы</string>
+    <string name="add_task_button_str">Еңгізу</string>
+    <string name="set_deadline_str">Бітетін уақытын орнату</string>
+    <string name="add_task_details">Тапсырма мәліметтерін толтырыңыз</string>
+    <string name="choose_future_date">Өтініш болашақ уақытты таңдаңыз</string>
+
+</resources>
