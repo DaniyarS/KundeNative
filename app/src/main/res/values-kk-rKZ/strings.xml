@@ -12,5 +12,6 @@
     <string name="set_deadline_str">Бітетін уақытын орнату</string>
     <string name="add_task_details">Тапсырма мәліметтерін толтырыңыз</string>
     <string name="choose_future_date">Өтініш болашақ уақытты таңдаңыз</string>
+    <string name="successfully_added">Тапсырма сәтті еңгізілді</string>
 
 </resources>

@@ -14,7 +14,7 @@ abstract class BaseFragment<V : ViewBinding>(
 ) : Fragment() {
 
     private var _binding: V? = null
-    val binding get() = _binding!!
+    open val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = inflate(inflater, container, false)

@@ -7,7 +7,6 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import androidx.cardview.widget.CardView
-import dagger.hilt.android.AndroidEntryPoint
 import dev.dslam.kunde.databinding.AddTaskViewBinding
 import dev.dslam.kunde.model.entities.Task
 import dev.dslam.kunde.utils.DateFormats
@@ -16,7 +15,6 @@ import java.util.Calendar
 import java.util.Date
 import java.util.Locale
 
-@AndroidEntryPoint
 class AddTaskFormView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet?,
@@ -28,6 +26,7 @@ class AddTaskFormView @JvmOverloads constructor(
     private val binding = AddTaskViewBinding.inflate(LayoutInflater.from(context), this, true)
     private val calendar = Calendar.getInstance()
     private var deadlineDate: Date? = null
+
     @SuppressLint("ClickableViewAccessibility")
     fun configure() {
         with(binding) {

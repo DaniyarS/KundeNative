@@ -1,14 +1,9 @@
 package dev.dslam.kunde
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
-import android.view.View
-import androidx.core.view.get
 import androidx.fragment.app.Fragment
-import dagger.hilt.android.AndroidEntryPoint
 import dev.dslam.kunde.databinding.ActivityMainBinding
 import dev.dslam.kunde.presentation.home.fragments.HomeFragment
 import dev.dslam.kunde.presentation.profile.fragments.ProfileFragment
@@ -16,7 +11,6 @@ import dev.dslam.kunde.presentation.search.fragments.SearchFragment
 import dev.dslam.kunde.presentation.settings.fragments.SettingsFragment
 import dev.dslam.kunde.presentation.task.AddTaskActivity
 
-@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private var _binding: ActivityMainBinding? = null
@@ -40,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             mainBottomNavView.background = null
 
-            mainBottomNavView.setOnNavigationItemSelectedListener { item ->
+            mainBottomNavView.setOnItemSelectedListener { item ->
                 val selectedFragment: Fragment = when (item.itemId) {
                     R.id.main_page -> HomeFragment()
                     R.id.search_page -> SearchFragment()
