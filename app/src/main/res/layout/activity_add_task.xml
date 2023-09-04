@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".presentation.task.AddTaskActivity">
+    tools:context=".presentation.addTask.AddTaskActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +16,7 @@
         android:textSize="16sp"
         android:layout_gravity="center_horizontal" />
 
-    <dev.dslam.kunde.presentation.task.AddTaskFormView
+    <dev.dslam.kunde.presentation.addTask.AddTaskFormView
         android:id="@+id/add_task_view"
         style="@style/CardView.KundeCardView"
         android:layout_width="match_parent"

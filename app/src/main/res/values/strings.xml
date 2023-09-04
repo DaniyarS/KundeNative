@@ -13,5 +13,6 @@
     <string name="add_task_details">Add task details</string>
     <string name="choose_future_date">Please choose future date</string>
     <string name="successfully_added">Task successfully added</string>
+    <string name="task_deadline">Deadline:</string>
 
 </resources>

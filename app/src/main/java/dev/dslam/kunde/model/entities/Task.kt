@@ -10,5 +10,6 @@ data class Task(
     val name: String,
     val description: String,
     val deadline: Date,
-    val taskStatus: TaskStatus = TaskStatus.ADDED
+    val taskStatus: TaskStatus = TaskStatus.ADDED,
+    val startDate: Date = Date()
 )

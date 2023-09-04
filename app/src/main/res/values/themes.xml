@@ -26,6 +26,5 @@
     <style name="CardView.KundeCardView">
         <item name="cardCornerRadius">12dp</item>
         <item name="backgroundColor">@color/cardview_light_background</item>
-        <item name="android:layout_marginHorizontal">16dp</item>
     </style>
 </resources>

@@ -1,4 +1,4 @@
-package dev.dslam.kunde.presentation.task.viewModels
+package dev.dslam.kunde.presentation.addTask.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

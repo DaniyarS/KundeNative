@@ -13,5 +13,6 @@
     <string name="add_task_details">Тапсырма мәліметтерін толтырыңыз</string>
     <string name="choose_future_date">Өтініш болашақ уақытты таңдаңыз</string>
     <string name="successfully_added">Тапсырма сәтті еңгізілді</string>
+    <string name="task_deadline">Соңғы күн:</string>
 
 </resources>

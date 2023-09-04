@@ -15,17 +15,23 @@
         android:theme="@style/Theme.Kunde"
         tools:targetApi="32">
         <activity
-            android:name=".presentation.task.AddTaskActivity"
+            android:name=".presentation.taskDetails.TaskDetailsActivity"
             android:exported="false"
-            android:label="@string/add_task_activity_title_str"
+            android:label=""
             android:theme="@style/Theme.Kunde">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
+        <activity
+            android:name=".presentation.addTask.AddTaskActivity"
+            android:exported="false"
+            android:label="@string/add_task_activity_title_str"
+            android:theme="@style/Theme.Kunde">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

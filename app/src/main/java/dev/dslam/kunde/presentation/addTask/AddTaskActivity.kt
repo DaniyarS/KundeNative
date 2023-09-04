@@ -1,11 +1,11 @@
-package dev.dslam.kunde.presentation.task
+package dev.dslam.kunde.presentation.addTask
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import dev.dslam.kunde.R
 import dev.dslam.kunde.databinding.ActivityAddTaskBinding
-import dev.dslam.kunde.presentation.task.viewModels.AddTaskViewModel
+import dev.dslam.kunde.presentation.addTask.viewModels.AddTaskViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class AddTaskActivity : AppCompatActivity() {

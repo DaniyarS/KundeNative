@@ -1,4 +1,4 @@
-package dev.dslam.kunde.presentation.task
+package dev.dslam.kunde.presentation.addTask
 
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
@@ -17,7 +17,7 @@ import java.util.Locale
 
 class AddTaskFormView @JvmOverloads constructor(
     context: Context,
-    attrs: AttributeSet?,
+    attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
 ) : CardView(context, attrs, defStyleAttr) {
 

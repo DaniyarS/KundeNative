@@ -13,5 +13,6 @@
     <string name="add_task_details">Заполните данные</string>
     <string name="choose_future_date">Пожалуйста выберите будущее время</string>
     <string name="successfully_added">Задача успешно создана</string>
+    <string name="task_deadline">Дедлайн:</string>
 
 </resources>

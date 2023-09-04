@@ -9,7 +9,7 @@ import dev.dslam.kunde.presentation.home.fragments.HomeFragment
 import dev.dslam.kunde.presentation.profile.fragments.ProfileFragment
 import dev.dslam.kunde.presentation.search.fragments.SearchFragment
 import dev.dslam.kunde.presentation.settings.fragments.SettingsFragment
-import dev.dslam.kunde.presentation.task.AddTaskActivity
+import dev.dslam.kunde.presentation.addTask.AddTaskActivity
 
 class MainActivity : AppCompatActivity() {
 
